@@ -1,5 +1,16 @@
+import Container from "./components/Container";
+
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 const App = () => {
-  return <div>My Gallery</div>;
+  return (
+    <Container>
+      <Header />
+      <Main />
+      <Footer />
+    </Container>
+  );
 };
 
 export default App;

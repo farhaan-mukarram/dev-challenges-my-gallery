@@ -23,7 +23,7 @@ const Main = () => {
             key={alt}
             src={src}
             alt={alt}
-            className="rounded-xl [&:nth-of-type(2)]:col-start-2 [&:nth-of-type(2)]:col-end-4 [&:nth-of-type(2)]:row-start-1 [&:nth-of-type(2)]:row-end-2 [&:nth-of-type(3)]:col-start-1 [&:nth-of-type(3)]:col-end-3 [&:nth-of-type(3)]:row-start-2 [&:nth-of-type(3)]:row-end-3 [&:nth-of-type(4)]:col-start-3 [&:nth-of-type(4)]:col-end-4 [&:nth-of-type(4)]:row-start-2 [&:nth-of-type(4)]:row-end-4"
+            className="rounded-xl [&:nth-of-type(2)]:col-start-2 [&:nth-of-type(2)]:col-end-4 [&:nth-of-type(2)]:row-start-1 [&:nth-of-type(2)]:row-end-2 [&:nth-of-type(3)]:col-start-1 [&:nth-of-type(3)]:col-end-3 [&:nth-of-type(3)]:row-start-2 [&:nth-of-type(3)]:row-end-3 [&:nth-of-type(4)]:col-start-3 [&:nth-of-type(4)]:col-end-4 [&:nth-of-type(4)]:row-start-2 [&:nth-of-type(4)]:row-end-4 shadow-[0_0.25rem_0.375rem_0_rgba(0,0,0,0.15)]"
           />
         ))}
       </section>

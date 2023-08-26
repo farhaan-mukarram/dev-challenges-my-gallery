@@ -17,34 +17,14 @@ const images = [
 const Main = () => {
   return (
     <main className="grid min-h-screen grid-cols-3 gap-8 mt-16 justify-items-stretch">
-      {/* {images.map(({ src, alt }) [&:nth-of-type(4)]=> (
-        <img src={src} alt={alt} />
-      ))} */}
       {images.map(({ src, alt }) => (
         <img
+          key={alt}
           src={src}
           alt={alt}
           className="rounded-xl [&:nth-of-type(2)]:col-start-2 [&:nth-of-type(2)]:col-end-4 [&:nth-of-type(2)]:row-start-1 [&:nth-of-type(2)]:row-end-2 [&:nth-of-type(3)]:col-start-1 [&:nth-of-type(3)]:col-end-3 [&:nth-of-type(3)]:row-start-2 [&:nth-of-type(3)]:row-end-3 [&:nth-of-type(4)]:col-start-3 [&:nth-of-type(4)]:col-end-4 [&:nth-of-type(4)]:row-start-2 [&:nth-of-type(4)]:row-end-4"
         />
       ))}
-      {/* <img src={photo1} alt="photo 1" className="rounded-xl" />
-      <img
-        src={photo2}
-        alt="photo 2"
-        className="col-start-2 col-end-4 row-start-1 row-end-2 rounded-xl"
-      />
-      <img
-        src={photo3}
-        alt="photo 3"
-        className="col-start-1 col-end-3 row-start-2 row-end-3 rounded-xl"
-      />
-      <img
-        src={photo4}
-        alt="photo 4"
-        className="col-start-3 col-end-4 row-start-2 row-end-4 rounded-xl"
-      />
-      <img src={photo5} alt="photo 5" className="rounded-xl" />
-      <img src={photo6} alt="photo 6" className="rounded-xl" /> */}
     </main>
   );
 };

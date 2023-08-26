@@ -17,7 +17,7 @@ const images = [
 const Main = () => {
   return (
     <main className="min-h-screen">
-      <section className="grid grid-cols-3 gap-3 px-3 mt-10 lg:mt-16 lg:gap-8 justify-items-stretch lg:px-10">
+      <section className="grid items-stretch grid-cols-3 gap-3 px-3 mt-10 lg:mt-16 lg:gap-8 justify-items-stretch lg:px-10">
         {images.map(({ src, alt }) => (
           <img
             key={alt}

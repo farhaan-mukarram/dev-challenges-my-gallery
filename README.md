@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://github.com/farhaan-mukarram/dev-challenges-my-gallery">
+    <a href="https://github.com/farhaan-mukarram/dev-challenges-my-gallery/">
       Challenge
     </a>
   </h3>

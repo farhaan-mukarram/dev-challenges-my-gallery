@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://app.netlify.com/sites/my-gallery-page-by-farhaan/">
+    <a href="https://my-gallery-page-by-farhaan.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 
 ![screenshot](https://github.com/farhaan-mukarram/dev-challenges-my-gallery/assets/45497935/a3511eee-c942-42d5-bd48-6ea46e6242bf)
 
-This repo contains my solution for the [My Gallery Page Challenge by DevChallenges](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I). The demo can be seen [here](https://app.netlify.com/sites/my-gallery-page-by-farhaan/)
+This repo contains my solution for the [My Gallery Page Challenge by DevChallenges](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I). The demo can be seen [here](https://my-gallery-page-by-farhaan.netlify.app/)
 
 
 ### Built With
